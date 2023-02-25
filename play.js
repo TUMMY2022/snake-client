@@ -1,3 +1,3 @@
-const { host, port} = require("./client");
-host;
-port;
+const {connect}= require("./client");
+console.log("Connecting ...");
+connect();
