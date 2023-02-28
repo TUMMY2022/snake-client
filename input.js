@@ -12,7 +12,7 @@ const setupInput = function (conn) {
 };
 
 const handleUserInput = function (useInput) {
-  console.log("The snake direction", useInput);
+  console.log("The snake direction", useInput);                
   if (useInput === "w") {
     connection.write("Move: up");
   }
