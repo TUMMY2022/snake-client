@@ -12,7 +12,8 @@ const setupInput = function (conn) {
 };
 
 const handleUserInput = function (useInput) {
-  console.log("The snake direction", useInput);                
+  console.log("The snake direction", useInput);  
+  // if statement to determine which direction the snake to move            
   if (useInput === "w") {
     connection.write("Move: up");
   }
@@ -24,6 +25,10 @@ const handleUserInput = function (useInput) {
   }
   if (useInput === "d") {
     connection.write("Move: right");
+  }
+    // if the user presses the p key then will appear on the screen "let us have fun with the snake"
+  if (useInput === "p") {
+    connection.write("Say: let us have fun with the snake");
   }
   if (useInput === "\u0003") {
     process.exit();

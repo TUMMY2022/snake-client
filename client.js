@@ -13,14 +13,7 @@ const connect = function () {
   conn.on("connect", () => {
     console.log("Successfully connected to game server");
     conn.write("Name: THT");
-    conn.write("Say: let us have fun with the snake");
-    console.log("Move up=>w"
-    +" Move down=>s" +
-    " Move left=>a" +
-    " Move right=>d");
-    //setInterval(() => { 
-      //conn.write("Move: up")},100);
-    })
+  })
 
   conn.on("data", (data) => {
     console.log("The game is done");

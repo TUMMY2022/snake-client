@@ -8,11 +8,14 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["screenshot description"](#)
-!["screenshot description"](#)
+!["snake starting game"](#)
+![Alt text](screenshots/snake.PNG)
+!["user message"](#)
+[label](screenshots/message.PNGC)
+
 
 
 ## Getting Started
 
-- Follow steps inside the snek server repo to run the server side
+- Follow steps inside the snek server repo to run the server side (run the `npm run play`) 
 - Run the development snake client using the `node play.js` command.
